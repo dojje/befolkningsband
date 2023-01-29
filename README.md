@@ -4,9 +4,10 @@
 
 ![befolningsband](befolkningsband.png)
 
-## datan
+i varje band bor 10% av sveriges befolkning, som man ser bor det inte så många i norrland.
 
-datan kommer ifrån
+om du vill ändra på hur många band du vill ha så är det bara att pilla på variablen `BANDS`. samma sak om du vill ändra på året, då är det bara att pilla på `YEAR` variablen i `main.py` filen.
+
 
 - [ Digitala gränser (scb.se)](https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/digitala-granser/) *datan om var kommunerna ligger*
 

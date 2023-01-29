@@ -11,13 +11,12 @@ import requests
 # In[2]:
 
 
-YEAR = 2021
+YEAR = "2021"
+PARTS = 10
 
 
 # In[3]:
 
-
-YEAR = "2021"
 
 url = "https://api.scb.se/OV0104/v1/doris/sv/ssd/START/BE/BE0101/BE0101C/BefArealTathetKon"
 # https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0101__BE0101C/BefArealTathetKon/
@@ -97,7 +96,7 @@ folk_sum
 
 
 # tell at what kommuns 10% of the total has been achived
-part = folk_sum / (20 + 1)
+part = folk_sum / (PARTS + 1)
 
 bands = [0]
 sum = 0

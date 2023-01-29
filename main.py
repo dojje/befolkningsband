@@ -30,8 +30,10 @@ def get_befolkning_per_kommun():
 
 def get_kommun_positioner():
     df = pd.read_csv("Kommun_Sweref99TM_region.csv")
-    print(df.head())
+
+    df.drop("KnNamn")
     
+    print(df.head())
     return df
 
 

@@ -12,3 +12,5 @@ om du vill ändra på hur många band du vill ha så är det bara att pilla på 
 - [ Digitala gränser (scb.se)](https://www.scb.se/hitta-statistik/regional-statistik-och-kartor/regionala-indelningar/digitala-granser/) *datan om var kommunerna ligger*
 
 - [Befolkningstäthet (scb.se)](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0101__BE0101C/BefArealTathetKon/) *datan om hur många som bor kommunerna*
+
+eftersom att det inte framgår i datan var någonstans i kommunerna folk bor så förutsätter programmet att alla bor precis i mitten av kommunen.
